@@ -1,0 +1,61 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0d1117; }
+      .text-primary { fill: #ffffff; }
+      .text-secondary { fill: #8b949e; }
+      .accent-rust { fill: #f46623; }
+      .accent-python { fill: #3776ab; }
+      .grid { stroke: #30363d; }
+    }
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #ffffff; }
+      .text-primary { fill: #1f2328; }
+      .text-secondary { fill: #656d76; }
+      .accent-rust { fill: #d97706; }
+      .accent-python { fill: #006dad; }
+      .grid { stroke: #d0d7de; }
+    }
+    .font-bold { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 800; }
+    .font-medium { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 500; }
+    
+    @keyframes pulse {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 0.6; }
+    }
+    .anim-pulse { animation: pulse 4s infinite ease-in-out; }
+  </style>
+
+  <!-- Background -->
+  <rect class="bg" width="1200" height="300" />
+  
+  <!-- Subtle Grid Pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" class="grid" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" fill="url(#grid)" />
+
+  <!-- Decorative Abstract Shapes (Speed/Data Lines) -->
+  <g opacity="0.4">
+    <rect x="800" y="100" width="300" height="2" class="accent-rust anim-pulse" rx="1" />
+    <rect x="850" y="110" width="200" height="2" class="accent-python anim-pulse" rx="1" style="animation-delay: 1s"/>
+    <rect x="780" y="120" width="250" height="2" class="accent-rust anim-pulse" rx="1" style="animation-delay: 2s"/>
+  </g>
+
+  <!-- Name -->
+  <text x="60" y="160" class="text-primary font-bold" font-size="64">Alberto Badía</text>
+  
+  <!-- Tagline -->
+  <text x="60" y="210" class="text-secondary font-medium" font-size="28">High-Performance Systems Engineer</text>
+
+
+  <!-- Abstract "Zoo" elements (Dots representing clusters) -->
+  <circle cx="1100" cy="80" r="4" class="accent-rust anim-pulse" />
+  <circle cx="1130" cy="110" r="6" class="accent-python anim-pulse" style="animation-delay: 0.5s" />
+  <circle cx="1080" cy="140" r="3" class="accent-rust anim-pulse" style="animation-delay: 1s" />
+  <circle cx="1150" cy="160" r="5" class="accent-python anim-pulse" style="animation-delay: 1.5s" />
+  <circle cx="1110" cy="200" r="4" class="accent-rust anim-pulse" style="animation-delay: 2s" />
+
+</svg>
