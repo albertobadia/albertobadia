@@ -36,6 +36,21 @@ A suite of high-throughput tools for modern data infrastructure.
 
 **Causal Consistency** (HLC) • **Semantic Invalidation** (PrefixTrie) • **SingleFlight** protection • **LMDB/Redis** support
 
+<br/>
+<br/>
+
+<a href="https://github.com/albertobadia/zoosync">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/zoosync-logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/zoosync-logo-light.svg">
+    <img alt="ZooSync Logo" src="assets/zoosync-logo-light.svg" width="500">
+  </picture>
+</a>
+
+*High-Performance Multiprocessing Primitives for Python, written in Rust.*
+
+**Crash-Safe Locks** • **Zero-Copy Queues** • **ZooPool** • **Shared Memory**
+
 </div>
 
 ---
