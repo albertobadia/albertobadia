@@ -39,11 +39,11 @@ A suite of high-throughput tools for modern data infrastructure.
 <br/>
 <br/>
 
-<a href="https://github.com/albertobadia/zoosync">
+<a href="https://github.com/albertobadia/zooparallel">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/zoosync-logo-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/zoosync-logo-light.svg">
-    <img alt="ZooSync Logo" src="assets/zoosync-logo-light.svg" width="500">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/zooparallel-logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/zooparallel-logo-light.svg">
+    <img alt="zooparallel Logo" src="assets/zooparallel-logo-light.svg" width="500">
   </picture>
 </a>
 
